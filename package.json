@@ -56,15 +56,16 @@
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
     "mini-css-extract-plugin": "^0.4.4",
-    "mocha": "^5.2.0",
-    "nyc": "^13.3.0",
+    "mocha": "^8.3.0",
+    "nyc": "^15.1.0",
     "style-loader": "^0.23.0",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.10.2",
+    "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^4.1.4"
   },
   "dependencies": {
+    "debug": "^4.3.1",
     "opencollective": "^1.0.3",
     "opencollective-postinstall": "^2.0.2"
   },

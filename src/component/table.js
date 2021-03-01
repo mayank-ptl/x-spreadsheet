@@ -304,6 +304,9 @@ class Table {
     this.el = el;
     this.draw = new Draw(el, data.viewWidth(), data.viewHeight());
     this.data = data;
+    // Need to add _cell and formulam to get the value while we download
+    this._cell = _cell;
+    this.formulam = formulam;
   }
 
   resetData(data) {
